@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<title>Dashboard</title>
+
+<body class="bg-[#eaeae9]">
+
+
+
+  <div class="hidden lg:block fixed top-0 left-0 h-full pl-5 pr-[10px]">
+    <h2 class="pt-7 text-lg font-bold">Material Shadcn
+    </h2>
+    <div class="flex flex-col mt-4 py-2">
+      <h5 class="text-sm text-white p-2 w-50 bg-black rounded-xl">
+        <i class="fa-solid fa-border-all"></i> Dashboard
+      </h5>
+      <h5 class="text-sm text-gray-800 p-2 w-50 hover:bg-stone-100  rounded-xl">
+        <i class="fa-solid fa-user"></i> Profile
+      </h5>
+      <h5 class="text-sm text-gray-800 p-2 w-50 hover:bg-stone-100  rounded-xl">
+        <i class="fa-solid fa-table-cells"></i> tables
+      </h5>
+      <h5 class="text-sm text-gray-800 p-2 w-50 hover:bg-stone-100  rounded-xl">
+        <i class="fa-solid fa-bell"></i> notifications
+      </h5>
+      <h5 class="text-sm text-gray-800 p-2 w-50 hover:bg-stone-100  rounded-xl">
+        <i class="fa-solid fa-window-maximize"></i> subscriptions
+      </h5>
+    </div>
+    <hr class="text-gray-300">
+    <div>
+      <h5 class="text-xs text-gray-400 text-sm p-3">AUTH PAGES
+      </h5>
+      <h5 class="text-sm text-gray-800 p-2 w-50 hover:bg-stone-100  rounded-xl">
+        <i class="fa-solid fa-arrow-right-to-bracket"></i> Sign In
+      </h5>
+      <h5 class="text-sm text-gray-800 p-2 my-2 w-50 hover:bg-stone-100  rounded-xl">
+        <i class="fa-solid fa-user-plus"></i> Sign Up
+      </h5>
+    </div>
+    <hr class="text-gray-300">
+    <div>
+      <h5 class="text-sm text-gray-800 p-2 w-50 mt-4 hover:bg-stone-100  rounded-xl">
+        <i class="fa-solid fa-book-open"></i> Documentation
+      </h5>
+    </div>
+  </div>
+
+
+  <div class="ml-[260px]">
+    <div class="mt-6 mr-8 p-8 h-[400px] bg-[url('material-persons.jpg')] bg-cover bg-center rounded-2xl">
+      <h2 class="text-4xl text-white font-bold mt-8 ml-6">Build Amazing Teams</h2>
+      <p class="text-white py-8 text-[18px] ml-6">Connect with diverse talent and create inclusive workspaces
+        that <br>drive innovation. Discover how our platform helps you build <br> stronger teams.
+      </p>
+      <button class="bg-[#3D3936] hover:bg-[#292524] px-4 py-2 rounded-xl text-white ml-6"> Get Started</button>
+    </div>
+    <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto">
+      <div class="p-3 border rounded-xl border-[#eaeae9]">
+        <h3 class="text-[14px] font-semibold">Website View</h3>
+        <p class="text-[12px] text-gray-500">Last Campaign Performance</p>
+        <img src="graph1.png" class="py-6">
+        <div class="text-xs text-center text-gray-400 space-x-2">
+          <span>M</span> 
+          <span>T</span>
+          <span>W</span> 
+          <span>T</span> 
+          <span>F</span> 
+          <span>S</span> 
+          <span>S</span> 
+        </div>
+        <li class="mx-4 text-green-500">
+          <p class="text-[12px] text-gray-500">campaign sent 2 days ago</p>
+        </li>
+      </div>
+      <div class="p-3 border rounded-xl border-[#eaeae9]">
+        <h3 class="text-[14px] font-semibold">Daily Sales</h3>
+        <p class="text-[12px] text-gray-500">15% increase in today sales</p>
+        <img src="graph2.png" class="py-6">
+        <div class="text-[8px] text-gray-400">
+          <span>Apr</span> 
+          <span>May</span>
+          <span>Jun</span> 
+          <span>Jul</span> 
+          <span>Aug</span> 
+          <span>Sep</span> 
+          <span>Oct</span> 
+          <span>Nov</span> 
+          <span>Dec</span> 
+        </div>
+        <li class="mx-5 text-green-500">
+          <p class="text-[12px] text-gray-500">updated 4 min ago</p>
+        </li>
+      </div>
+      <div class="p-3 border rounded-xl border-[#eaeae9]">
+        <h3 class="text-[14px] font-semibold">Completed Tasks</h3>
+        <p class="text-[12px] text-gray-500">Last Campaign Performance</p>
+        <img src="graph3.png" class="py-6">
+        <div class="text-[8px] text-gray-400">
+          <span>Apr</span> 
+          <span>May</span>
+          <span>Jun</span> 
+          <span>Jul</span> 
+          <span>Aug</span> 
+          <span>Sep</span> 
+          <span>Oct</span> 
+          <span>Nov</span> 
+          <span>Dec</span> 
+        </div>
+        <li class="mx-5 text-green-500">
+          <p class="text-[12px] text-gray-500">just updated</p>
+        </li>
+      </div>
+      <div class="p-3 border rounded-xl border-[#eaeae9] space-y-1">
+        <h3 class="text-[14px] font-semibold">Orders Overview</h3>
+        <p class="text-[12px]"><i class="fa-regular fa-bell text-green-400"></i>$2400, Design changes</p>
+        <p class="text-[10px] px-4 pb-3 text-gray-500">22 DEC 7:20 PM</p>
+        <p class="text-[12px]"><i class="fa-solid fa-cart-shopping text-red-400"></i>New order #1832412</p>
+        <p class="text-[10px] px-4 text-gray-500">21 DEC 11 PM</p>
+        <p class="text-xs text-green-500 bg-green-50 mr-10 mt-15 p-1 rounded-xl">+24% this month</p>
+      </div>
+    </div>
+    <div class="rounded-xl border border-[#eaeae9] p-4 mt-8  overflow-x-auto">
+      <h3 class="text-[16px] font-bold">Projects</h3>
+      <li class="mx-5 text-green-500">
+        <p class="text-sm text-gray-500">30 done this month</p>
+      </li>
+      <table class="table-auto border-separate border-spacing-y-3 w-full border mt-8">
+        <thead class="bg-gray-50">
+          <tr class="text-left text-gray-400 text-xs text-center">
+            <th class="px-4 py-2">COMPANIES</th>
+            <th class="px-4 py-2">MEMBERS</th>
+            <th class="px-8 py-2">BUDGET</th>
+            <th class="px-4 py-2">COMPLETION</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="py-2 text-sm">
+              <i class="fa-solid fa-palette bg-black text-white text-m py-1 mx-2 rounded-xl"></i>
+              <span class="text-[12px]">Material XD Version</span></td>
+            <td class="px-4 py-2 flex-row">
+              <div class="flex -space-x-2 ">
+                <img src="photo1.jpeg" class="w-8 h-auto border-white rounded-full">
+                <img src="photo2.jpeg" class="w-8 h-auto border-white rounded-full">
+                <img src="photo3.jpeg" class="w-8 h-auto border-white rounded-full">
+                <img src="photo4.jpeg" class="w-8 h-auto border-white rounded-full">
+              </div>
+            </td>
+            <td class="px-8 py-2 text-[12px]">$14,000</td>
+            <td class="px-4 py-2">
+              <div class="flex items-center gap-3">
+                <div>
+                  <h3 class="text-[12px] text-gray-500">60%</h3>
+                </div>
+                <div class="py-[px] border rounded-full w-50">
+                  <div class="bg-black w-20 py-[5px] rounded-full"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="py-2 text-sm"><i
+                class="fa-solid fa-arrow-trend-up bg-blue-500 text-white text-m py-1 mx-2 rounded-xl"></i>
+                <span class="text-[12px]">Add Progress Track</span> 
+              </td>
+            <td class="px-4 py-2 flex-row">
+              <div class="flex -space-x-2">
+                <img src="photo1.jpeg" class="w-8 h-auto border-white rounded-full">
+                <img src="photo2.jpeg" class="w-8 h-auto border-white rounded-full">
+              </div>
+            </td>
+            <td class="px-8 py-2 text-[12px]">$3,000</td>
+            <td class="px-4 py-2">
+              <div class="flex items-center gap-3">
+                <div>
+                  <h3 class="text-[12px] text-gray-500">10%</h3>
+                </div>
+                <div class="py-[px] border rounded-full w-50">
+                  <div class="bg-black w-5 py-[5px] rounded-full"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="py-2 text-sm"><i
+                class="fa-solid fa-bug bg-[#EF4444] text-white text-m py-1 mx-2 rounded-xl"></i>
+                <span class="text-[12px]">Fix Platform Errors</span></td>
+            <td class="px-4 py-2 flex-row">
+              <div class="flex -space-x-2">
+                <img src="photo1.jpeg" class="w-8 h-auto border-white rounded-full">
+                <img src="photo4.jpeg" class="w-8 h-auto border-white rounded-full">
+              </div>
+            </td>
+            <td class="px-8 py-2 text-[12px]">Not set </td>
+            <td class="px-4 py-2">
+              <div class="flex items-center gap-3">
+                <div>
+                  <h3 class="text-[12px] text-gray-500">100%</h3>
+                </div>
+                <div class="py-[px] border rounded-full w-50">
+                  <div class="bg-black w-50 py-[5px] rounded-full"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="py-2 text-sm"><i
+                class="fa-solid fa-mobile-screen-button bg-green-500 text-white text-m py-1 mx-2 rounded-xl"></i>
+                <span class="text-[12px]">Launch our Mobile App</span></td>
+            <td class="px-4 py-2 flex-row">
+              <div class="flex -space-x-2">
+                <img src="photo1.jpeg" class="w-8 h-auto border-white rounded-full">
+                <img src="photo2.jpeg" class="w-8 h-auto border-white rounded-full">
+                <img src="photo3.jpeg" class="w-8 h-auto border-white rounded-full">
+                <img src="photo4.jpeg" class="w-8 h-auto border-white rounded-full">
+              </div>
+            </td>
+            <td class="px-8 py-2 text-[12px]">$20,500</td>
+            <td class="px-4 py-2">
+              <div class="flex items-center gap-3">
+                <div>
+                  <h3 class="text-[12px] text-gray-500">100%</h3>
+                </div>
+                <div class="py-[px] border rounded-full w-50">
+                  <div class="bg-black w-50 py-[5px] rounded-full"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="py-2 text-sm"><i
+                class="fa-solid fa-tag bg-blue-500 text-white text-m py-1 mx-2 rounded-xl"></i>
+                <span class="text-[12px]">Add the New Pricing Page</span>
+            </td>
+            <td class="px-4 py-2 flex-row">
+              <div class="flex -space-x-2">
+                <img src="photo1.jpeg" class="w-8 h-auto border-white rounded-full">
+              </div>
+            </td>
+            <td class="px-8 py-2 text-[12px]">$500</td>
+            <td class="px-4 py-2">
+              <div class="flex items-center gap-3">
+                <div>
+                  <h3 class="text-[12px] text-gray-500">25%</h3>
+                </div>
+                <div class="py-[px] border rounded-full w-50">
+                  <div class="bg-black w-10 py-[5px] rounded-full"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="py-2 text-sm"><i
+                class="fa-solid fa-shop bg-pink-600 text-white text-m py-1 mx-2 rounded-xl"></i>
+                <span class="text-[12px]">Redesign New Online Shop</span>
+            </td>
+            <td class="px-4 py-2 flex-row">
+              <div class="flex -space-x-2">
+                <img src="photo3.jpeg" class="w-8 h-auto border-white rounded-full">
+                <img src="photo4.jpeg" class="w-8 h-auto border-white rounded-full">
+              </div>
+            </td>
+            <td class="px-8 py-2 text-[12px]">$2,000</td>
+            <td class="px-4 py-2">
+              <div class="flex items-center gap-3">
+                <div>
+                  <h3 class="text-[12px] text-gray-500">40%</h3>
+                </div>
+                <div class="py-[px] border rounded-full w-50">
+                  <div class="bg-black w-15 py-[5px] rounded-full"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+<p class="py-2 mb-2 text-gray-500 text-sm text-center">Developed by... <i class="text-sm">_FARHAT SHAHIN_</i></p>
+</body>
+
+</html>
